@@ -23,7 +23,7 @@ from federatedml.optim import activation
 from federatedml.protobuf.generated import lr_model_param_pb2
 from federatedml.secureprotol import PaillierEncrypt
 from federatedml.secureprotol.fate_paillier import PaillierPublicKey, PaillierPrivateKey
-from federatedml.secureprotol.spdz.secure_matrix.secure_matrix import SecureMatrix
+from federatedml.secureprotol.spdz.secure_matrix.mysshe_secure_matrix import SecureMatrix
 from federatedml.secureprotol.spdz.tensor import fixedpoint_numpy, fixedpoint_table
 from federatedml.util import LOGGER, consts
 from federatedml.util import fate_operator

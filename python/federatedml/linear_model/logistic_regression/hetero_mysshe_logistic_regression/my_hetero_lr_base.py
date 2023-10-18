@@ -41,7 +41,7 @@ from federatedml.secureprotol import EncryptModeCalculator
 from federatedml.secureprotol import PaillierEncrypt
 from federatedml.secureprotol.fixedpoint import FixedPointEndec
 from federatedml.secureprotol.spdz import SPDZ
-from federatedml.secureprotol.spdz.secure_matrix.secure_matrix import SecureMatrix
+from federatedml.secureprotol.spdz.secure_matrix.mysshe_secure_matrix import SecureMatrix
 from federatedml.secureprotol.spdz.tensor import fixedpoint_numpy, fixedpoint_table
 from federatedml.transfer_variable.transfer_class.batch_generator_transfer_variable import \
     BatchGeneratorTransferVariable

@@ -22,7 +22,7 @@ from federatedml.linear_model.linear_model_weight import LinearModelWeights
 from federatedml.linear_model.logistic_regression.hetero_mysshe_logistic_regression.my_hetero_lr_base import MyHeteroLRBase
 from federatedml.protobuf.generated import lr_model_param_pb2
 from federatedml.secureprotol.fate_paillier import PaillierPublicKey, PaillierEncryptedNumber
-from federatedml.secureprotol.spdz.secure_matrix.secure_matrix import SecureMatrix
+from federatedml.secureprotol.spdz.secure_matrix.mysshe_secure_matrix import SecureMatrix
 from federatedml.secureprotol.spdz.tensor import fixedpoint_table, fixedpoint_numpy
 from federatedml.util import consts, LOGGER
 from federatedml.util import fate_operator

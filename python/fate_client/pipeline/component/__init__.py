@@ -33,6 +33,7 @@ from pipeline.component.sample_weight import SampleWeight
 from pipeline.component.feature_imputation import FeatureImputation
 from pipeline.component.label_transform import LabelTransform
 from pipeline.component.hetero_sshe_lr import HeteroSSHELR
+from pipeline.component.hetero_mysshe_lr import HeteroMySSHELR
 from pipeline.component.secure_information_retrieval import SecureInformationRetrieval
 from pipeline.component.cache_loader import CacheLoader
 from pipeline.component.model_loader import ModelLoader
@@ -48,5 +49,5 @@ __all__ = ["DataStatistics", "DataIO", "Evaluation", "HeteroDataSplit",
            "FederatedSample", "FeatureScale", "Union", "ColumnExpand", "FeldmanVerifiableSum",
            "SampleWeight", "DataTransform", "FeatureImputation",
            "LabelTransform", "SecureInformationRetrieval", "CacheLoader", "ModelLoader",
-           "HeteroSSHELR", "HeteroKmeans", "HomoOneHotEncoder"]
+           "HeteroSSHELR", "HeteroMySSHELR", "HeteroKmeans", "HomoOneHotEncoder"]
 
